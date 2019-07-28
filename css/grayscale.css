@@ -21,7 +21,7 @@
 }
 
 #mainNav .navbar-brand {
-  color: #232323;
+  color: #161616;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -66,10 +66,10 @@
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #232323;
+    color: #161616;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #232323;
+    color: #161616;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -92,9 +92,9 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#232323)), url("../img/bg-masthead.jpg");
-  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.5) 0%, rgba(22, 22, 22, 0.3) 75%, rgba(22, 22, 22, 0) 100%), url("../img/smiling.jpg");
-  background-position:  center right;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.4)), color-stop(75%, rgba(22, 22, 22, 0.3)), to(rgba(22, 22, 22, 0.7))), url("../img/smiling.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.4) 0%, rgba(22, 22, 22, 0.3) 75%, rgba(22, 22, 22, 0.7) 100%), url("../img/smiling.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -105,7 +105,6 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -169,8 +168,8 @@
 
 .about-section {
   padding-top: 5rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#232323), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #4F837F 0%, rgba(79, 131, 129, 0.9) 75%, rgba(79, 131, 129, 0.8) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#4f8381), color-stop(75%, rgba(79, 131, 129, 0.9)), to(rgba(79, 131, 129, 0.8)));
+  background: linear-gradient(to bottom, #4f8381 0%, rgba(79, 131, 129, 0.9) 75%, rgba(79, 131, 129, 0.8) 100%);
 }
 
 .about-section p {
@@ -210,11 +209,11 @@
 
 .signup-section {
   padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#232323)), url("../img/bg-signup.jpg");
-  background: linear-gradient(to bottom, rgba(79, 131, 129, 0.5) 0%, rgba(79, 131, 129, 0.8) 75%, rgb(79, 131, 129) 100%), url("../img/woa.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(79, 131, 129, 0.1)), color-stop(75%, rgba(79, 131, 129, 0.5)), to(#4f8381)), url("../img/woa.jpg");
+  background: linear-gradient(to bottom, rgba(79, 131, 129, 0.1) 0%, rgba(79, 131, 129, 0.5) 75%, #4f8381 100%), url("../img/woa.jpg");
   background-position: top;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -289,7 +288,7 @@ a:focus, a:hover {
 }
 
 .bg-black {
-  background-color: #232323 !important;
+  background-color: #161616 !important;
 }
 
 .bg-primary {
@@ -303,13 +302,11 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
-.text-white-50{color:rgb(255, 255, 255)}
 
-.bg-custom{
-  background-color: #4F837F;
+.bg-custom {
+  background-color: #64a19d;
 }
 
-
-.text-custom{
-  color: #4F837F;
+.text-custom {
+  color: #64a19d;
 }
